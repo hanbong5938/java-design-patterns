@@ -1,3 +1,11 @@
+---
+title: Abstract Document
+category: Structural
+language: en
+tag: 
+ - Extensibility
+---
+
 
 ## Abstract Document
 객체에 속성을 추가할 수 있도록 하면서도 타입 안정성을 유지하는 것을 목표로 하는 객체 지향 구조적 디자인 패턴
@@ -8,13 +16,6 @@ ex) 자동차는 다양한 부품들로 구성되어 있지만, 그 자동차가
     이러한 동적인 객체들을 처리하는데 유용합니다.
 
 
----
-title: Abstract Document
-category: Structural
-language: en
-tag: 
- - Extensibility
----
 
 ## Intent
 

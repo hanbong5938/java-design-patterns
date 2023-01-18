@@ -6,6 +6,9 @@ tag:
  - Extensibility
 ---
 
+## 설명
+객체에 기능을 추가할 때 영향을 미치지 않고 추가기 위한 
+
 ## Intent
 
 Allow new functions to be added to existing class hierarchies without affecting those hierarchies, and without creating 

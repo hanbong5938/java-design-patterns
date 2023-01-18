@@ -5,7 +5,10 @@ language: en
 tag:
  - Performance
 ---
+## 설명
 
+비동기 처리를 가능하게 하도록 사용된다.
+각각 제어 스레드에 상주하는 객체에 대한 메서드 호출에서 메서드 실행을 분리하여 동시성을 도입한다.
 
 ## Intent
 The active object design pattern decouples method execution from method invocation for objects that each reside in their thread of control. The goal is to introduce concurrency, by using asynchronous method invocation, and a scheduler for handling requests.

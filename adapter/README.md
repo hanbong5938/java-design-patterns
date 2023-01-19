@@ -9,6 +9,11 @@ tag:
 ## Also known as
 Wrapper
 
+## 설명
+어댑터 패턴은 호환되지 않는 인터페이스를 가진 객체들이 같이 작동할 수 있도록 하는 구조적 디자인 패턴
+기존 클래스의 인터페이스를 기대하는 다른 인터페이스로 변환할 수 있는 래퍼 클래스를 생성한다. 이렇게 하면 클라이언트는 원래 클래스처럼 어댑터 클래스를 사용할 수 있으며, 클라이언트 코드를 변경할 필요가 없다
+어댑터 패턴은 클래스를 수정할 수 없지만, 그 인터페이스가 나머지 클래스들과 호환되지 않는 시스템에서 사용해야 할 때 자주 사용
+
 ## Intent
 Convert the interface of a class into another interface the clients expect. Adapter lets classes work together that 
 couldn't otherwise because of incompatible interfaces.

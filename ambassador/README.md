@@ -7,6 +7,10 @@ tag:
   - Cloud distributed
 ---
 
+## 설명
+MSA에서 마이크로 서비스 간 인터페이스를 분리하는 데 사용되는 디자인 패턴이다.
+별도의 서비스를 생성하여 마이크로 서비스 사이의 프록시로 작동하도록 한다. 하나의 서비스를 변경하더라도 다른 서비스에 영향을 주지 않도록 할 수 있으며, 서비스 검색, 로드 밸런싱, 라우팅 등의 기능을 중앙집중적으로 구현할 수 있다. MSA의 확장성과 유지보수성을 향상시킨다.
+
 ## Intent
 
 Provide a helper service instance on a client and offload common functionality away from a shared resource.

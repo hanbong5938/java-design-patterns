@@ -8,6 +8,9 @@ tag:
   - Microservices
 ---
 
+## 설명
+MSA에 대한 액세스를 관리하고 제어하기 위한 중앙 집중식 인터페이스를 제공하는 아키텍처 패턴이다.
+
 ## Intent
 
 Aggregate calls to microservices in a single location, the API Gateway. The user makes a single call 

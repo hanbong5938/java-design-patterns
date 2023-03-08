@@ -6,8 +6,12 @@ tag:
  - Testing
 ---
 
-## Also known as
 
+
+## Also known as
+Given : 테스트에 필요한 데이터 준비
+When : 수행
+Then : 결고 확인
 Given/When/Then
 
 ## Intent
